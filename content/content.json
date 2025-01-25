@@ -12,7 +12,7 @@
       {
         "name": "Netresh Singh",
         "role": "President",
-        "image": "team/netresh.jpg",
+        "image": "./netresh.jpg",
 
         "description": "Netresh is a lazy yet dedicated individual who believes that this very world might be an excellent computer application. He believes in supremacy of  VS code and also secretly wants HTML to be a programming language",
         "points": [
@@ -24,7 +24,7 @@
         "name": "Harshit Rawat",
         "role": "Vice President",
 
-        "image": "team/harshit.jpg",
+        "image": "./harshit.jpg",
         "description": "Harshit is someone who found himself in a coding degree despite a love-hate relationship with programming. Always eager to tackle new challenges, he's proof that you don't need to love code to master it!",
 
         "points": [
@@ -36,7 +36,7 @@
         "name": "Yashasvi",
         "role": "General Secretary",
 
-        "image": "./team/yashasvi.jpg",
+        "image": "./yashasvi.jpg",
 
         "description": "Yashasvi is a dedicated individual with a passion for coding and a strong interest in AI. Her commitment to her goals drives her to constantly learn and grow in the tech field. Outside of her pursuits, she brings a fun-loving spirit to everything she does!",
         "points": [
@@ -47,7 +47,7 @@
       {
         "name": "Shivangi",
         "role": "Treasurer",
-        "image": "./team/shivangi.jpg",
+        "image": "./shivangi.jpg",
         "description": "Shivangi blends fun with professionalism, taking risks while balancing food and code. A jack of all trades, from filmmaking to consulting, she’s the department’s Charisma, inspiring the team to work late without looking sleep-deprived!",
 
         "points": [
@@ -71,9 +71,9 @@
         "date": "2021-10-10",
         "description": "Code Wars is our annual coding competition where students from all over the galaxy come together to test their skills and compete for glory and prizes. The competition consists of a series of coding challenges that test your knowledge of algorithms, data structures, and problem-solving skills. Whether you're a beginner or an expert, Code Wars has something for everyone. So grab your lightsaber and join us for an epic battle of wits and code!",
         "images": [
-          "/content/events/first.jpg",
-          "/content/events/second.jpg",
-          "/content/events/third.jpg"
+          "./first.jpg",
+          "./second.jpg",
+          "./third.jpg"
         ]
       },
       {
