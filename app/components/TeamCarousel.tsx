@@ -54,7 +54,7 @@ export default function TeamCarousel({
       <Window title="Paint" outerClassName="w-[80%] desktop:w-1/2">
         <div className="flex items-center justify-center p-4">
           <Image
-            src={`content/${currentMember.image}`}
+            src={`${currentMember.image}`}
             alt={currentMember.name}
 
             width={200}
