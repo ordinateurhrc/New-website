@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "name": "Ordinateur",
+    "description": "The Computer Science Society of Hansraj College"
+  },
+  "sections": {
+    "about": {
+      "prompt": "So, what do you guys do exactly?",
+      "answer": "The Computer Science Society of Hansraj College is not your ordinary organization. We are an intergalactic empire dedicated to saving the world from the dominion of cats and vampires. Our mission is to harness the power of technology and programming to combat these formidable foes and restore balance to the universe. "
+    },
+    "team": [
+      {
+        "name": "Nitresh Singh",
+        "role": "President",
+        "image": "team/president.jpeg",
+        "description": "A dedicated coder and leader, John is the mastermind behind our operations. He is a visionary who dreams of a world where every student can code and every cat can dance.",
+        "points": [
+          "Likes to do DSA",
+          "Engages in unauthorized arms trade in the Middle East"
+        ]
+      },
+      {
+        "name": "Elon Musk",
+        "role": "Vice President",
+        "image": "team/vp.jpeg",
+        "description": "Jane is the heart and soul of our society. She is a passionate advocate for human-cat relations and has dedicated her life to promoting peace and understanding between the two species.",
+        "points": [
+          "Firm believer of the Flat Earth doctrine",
+          "Has a pet cat named 'Vampire'"
+        ]
+      }
+    ],
+    "magazine": {
+      "tagline": "Every year since 2017, our society releases its annual publication: Bitwise. For everything technology and computer science!",
+      "currentVolume": "https://drive.google.com/",
+      "pastVolumes": [
+        "https://drive.google.com/",
+        "https://drive.google.com/",
+        "https://drive.google.com/",
+        "https://drive.google.com/"
+      ]
+    },
+    "events": [
+      {
+        "name": "Code Wars",
+        "date": "2021-10-10",
+        "description": "Code Wars is our annual coding competition where students from all over the galaxy come together to test their skills and compete for glory and prizes. The competition consists of a series of coding challenges that test your knowledge of algorithms, data structures, and problem-solving skills. Whether you're a beginner or an expert, Code Wars has something for everyone. So grab your lightsaber and join us for an epic battle of wits and code!",
+        "images": ["events/codewars1.jpeg", "events/codewars.jpeg"]
+      },
+      {
+        "name": "Hackathon",
+        "date": "2021-11-11",
+        "description": "Our annual hackathon is a 24-hour coding marathon where students work in teams to build innovative projects and solve real-world problems. Whether you're a seasoned hacker or a first-time coder, our hackathon has something for everyone. So grab your laptop and join us for an unforgettable experience of coding, collaboration, and creativity!",
+        "images": ["events/hackathon1.jpeg", "events/hackathon2.jpeg"]
+      }
+    ]
+  },
+  "contact": {
+    "facebook": "https://www.facebook.com/computerscience",
+    "instagram": "https://www.instagram.com/computerscience",
+    "linkedin": "https://www.linkedin.com/computerscience",
+    "mail": "team@ordinateur.in"
+  }
+}

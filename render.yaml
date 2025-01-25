@@ -1,0 +1,11 @@
+# Exported from Render on 2025-01-14T14:25:45Z
+services:
+  - type: web
+    name: ordinateur
+    runtime: static
+    repo:https://github.com/Deepaksharma341100/Ordinateur
+    branch: main
+    buildCommand: npm install && npm run build
+    staticPublishPath: out
+    autoDeploy: false
+version: "1"
