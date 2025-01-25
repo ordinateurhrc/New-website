@@ -3,7 +3,7 @@ services:
   - type: web
     name: ordinateur
     runtime: static
-    repo:https://github.com/Deepaksharma341100/Ordinateur
+    repo: https://github.com/ordinateurhrc/New-website
     branch: main
     buildCommand: npm install && npm run build
     staticPublishPath: out
