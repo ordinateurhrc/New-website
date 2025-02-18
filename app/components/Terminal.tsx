@@ -39,28 +39,28 @@ export default function Terminal(): ReactNode {
             </div>
             <pre className="inline-flex items-center">
               <TypeAnimation
-                sequence={[2000, TERMINAL_COMMAND]}
+                sequence={[1000, TERMINAL_COMMAND]}
                 preRenderFirstString={false}
-                speed={10}
+                speed={30}
                 wrapper="span"
               />
             </pre>
           </div>
           <pre className="my-4 text-green">
             <TypeAnimation
-              sequence={[3000, "Generating static pages..."]}
+              sequence={[2000, "Generating static pages..."]}
               preRenderFirstString={false}
               wrapper="div"
               cursor={false}
             />
             <TypeAnimation
-              sequence={[5000, "Building the code..."]}
+              sequence={[3000, "Building the code..."]}
               preRenderFirstString={false}
               wrapper="div"
               cursor={false}
             />
             <TypeAnimation
-              sequence={[7000, "Deploying on port 80..."]}
+              sequence={[5000, "Deploying on port 80..."]}
               preRenderFirstString={false}
               wrapper="div"
               cursor={false}
@@ -72,9 +72,11 @@ export default function Terminal(): ReactNode {
             aria-label="Ordinateur"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.25, ease: "easeInOut", delay: 9 }}
+            transition={{ duration: 0.25, ease: "easeInOut", delay: 7 }}
           >
-            <pre className="text-[4px] desktop:text-[8px] font-custom">{ASCII_STRING}</pre>
+            <pre className="font-custom text-[4px] desktop:text-[8px]">
+              {ASCII_STRING}
+            </pre>
             <div className="px-4 text-center text-base">
               The Computer Science Society
             </div>
@@ -84,3 +86,4 @@ export default function Terminal(): ReactNode {
     </div>
   );
 }
+
