@@ -20,19 +20,17 @@ export default function AboutSection({
     <div
       ref={sectionRef}
       id={containerID}
-      className="relative z-0 mx-auto h-screen w-full max-w-view bg-gpt-darker text-white"
+      className="relative z-0 mx-auto h-[60vh] w-full max-w-view bg-gpt-darker text-white"
     >
       {/* Spacer */}
-      <div className="h-[15%] bg-gpt-medium"></div>
+      <div className="h-[10%] bg-gpt-medium"></div>
       {/* Content */}
-      <div className="h-[70%] overflow-auto bg-gpt-darker">
+      <div className="h-[40%] overflow-hidden bg-gpt-darker font-custom">
         <Prompt prompt={content.sections.about.prompt} />
         <Answer answer={content.sections.about.answer} />
         {/* Dummy element to represent the bottom */}
         <div className="h-4"></div>
       </div>
-      {/* Textbox */}
-      <Textbox />
     </div>
   );
 }
@@ -52,7 +50,7 @@ function Prompt({ prompt }: { prompt: string }): ReactNode {
 
 function Answer({ answer }: { answer: string }): ReactNode {
   return (
-    <div className="flex gap-2 bg-gpt-medium p-4 py-8">
+    <div className="mb-4 flex gap-2 bg-gpt-medium p-4 py-8">
       <div className="flex grow-[2] basis-0 items-baseline justify-center pt-2">
         <Image
           src="/logo.png"
@@ -64,25 +62,12 @@ function Answer({ answer }: { answer: string }): ReactNode {
       </div>
       <div className="grow-[10] basis-0">
         <TypeAnimation
-          sequence={[2000, answer]}
+          sequence={[500, answer]}
           preRenderFirstString={false}
-          speed={20}
+          speed={60}
           wrapper="p"
         />
       </div>
-    </div>
-  );
-}
-
-function Textbox(): ReactNode {
-  return (
-    <div className="absolute bottom-8 left-0 z-10 flex w-full flex-col items-center justify-center gap-2">
-      <input
-        type="text"
-        className="inline-block w-[90%] rounded-[4px] border-none bg-gpt-dark p-2 px-4 text-white shadow-sm"
-        placeholder="Type in your message..."
-      />
-      <p className="text-center text-[0.8rem]">Powered by CatGPT ;-P</p>
     </div>
   );
 }
