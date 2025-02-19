@@ -23,9 +23,9 @@ export default function AboutSection({
       className="relative z-0 mx-auto h-[60vh] w-full max-w-view bg-gpt-darker text-white"
     >
       {/* Spacer */}
-      <div className="h-[10%] bg-gpt-medium"></div>
+      <div className="h-[50%] bg-gpt-medium"></div>
       {/* Content */}
-      <div className="h-[40%] overflow-hidden bg-gpt-darker font-custom">
+      <div className="h-[40%] overflow-visible bg-gpt-darker ">
         <Prompt prompt={content.sections.about.prompt} />
         <Answer answer={content.sections.about.answer} />
         {/* Dummy element to represent the bottom */}
