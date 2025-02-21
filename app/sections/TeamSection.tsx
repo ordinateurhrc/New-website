@@ -14,14 +14,14 @@ export default function TeamSection({
   const sectionRef = useRef(null);
   useUpdateSelectionInView(sectionRef, "Team");
 
-
   return (
     <div
       ref={sectionRef}
       id={containerID}
-      className="mx-auto flex h-screen w-full max-w-view items-center justify-center bg-retro-light p-4 text-white"
+      className="mx-auto mt-10 flex h-screen w-full max-w-view items-center justify-center bg-retro-light p-4 text-white"
     >
       <TeamCarousel content={content} />
     </div>
   );
 }
+
