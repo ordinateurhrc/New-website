@@ -6,7 +6,7 @@
   "sections": {
     "about": {
       "prompt": "So, what do you guys do exactly?",
-      "answer": "The Computer Science Society of Hansraj College is not your ordinary organization. We are an intergalactic empire dedicated to saving the world from the dominion of cats and vampires. Our mission is to harness the power of technology and programming to combat these formidable foes and restore balance to the universe. "
+      "answer": "Filled with passionate tech enthusiasts, we are one of the top Computer Science societies at Delhi University, upholding the legacy of Hansraj College's CS Department. Our members excel in diverse fields, from Web Development and Competitive Programming to Ethical Hacking, Data Science, and Blockchain. Active year-round with seminars, webinars, and tech events, we also publish *Bitwise*, an annual magazine fostering technical creativity. Ordinateur offers students a platform to explore their potential, supported by a strong, friendly community of peers and mentors. "
     },
     "team": [
       {
@@ -70,18 +70,14 @@
         "name": "Code Wars",
         "date": "2021-10-10",
         "description": "Code Wars is our annual coding competition where students from all over the galaxy come together to test their skills and compete for glory and prizes. The competition consists of a series of coding challenges that test your knowledge of algorithms, data structures, and problem-solving skills. Whether you're a beginner or an expert, Code Wars has something for everyone. So grab your lightsaber and join us for an epic battle of wits and code!",
-        "images": [
-          "./first.jpg",
-          "./second.jpg",
-          "./third.jpg"
-        ]
+
+        "images": ["./first.jpg", "./second.jpg", "./third.jpg"]
       },
       {
         "name": "Upcoming Hackathon",
         "date": "2021-11-11",
         "description": "Our annual hackathon is a 24-hour coding marathon where students work in teams to build innovative projects and solve real-world problems. Whether you're a seasoned hacker or a first-time coder, our hackathon has something for everyone. So grab your laptop and join us for an unforgettable experience of coding, collaboration, and creativity!",
-        "images": []
-
+        "images": ["./hackthon.jpg"]
       }
     ]
   },
@@ -91,3 +87,4 @@
     "mail": "Ordinateur.hrc.du@gmail.com"
   }
 }
+
