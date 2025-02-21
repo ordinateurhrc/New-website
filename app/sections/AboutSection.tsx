@@ -20,16 +20,15 @@ export default function AboutSection({
     <div
       ref={sectionRef}
       id={containerID}
-      className="relative z-0 mx-auto h-[60vh] w-full max-w-view bg-gpt-darker text-white"
+      className="sm:min-h-[70vh] md:min-h-[75vh] lg:min-h-[80vh] relative z-0 mx-auto min-h-[60vh] w-full max-w-view bg-gpt-darker pb-16 text-white"
     >
       {/* Spacer */}
-      <div className="h-[50%] bg-gpt-medium"></div>
+      <div className="h-[10%] bg-gpt-medium"></div>
+
       {/* Content */}
-      <div className="h-[40%] overflow-visible bg-gpt-darker ">
+      <div className="sm:px-6 md:px-8 lg:px-10 min-h-[70%] bg-gpt-darker px-4">
         <Prompt prompt={content.sections.about.prompt} />
         <Answer answer={content.sections.about.answer} />
-        {/* Dummy element to represent the bottom */}
-        <div className="h-4"></div>
       </div>
     </div>
   );
@@ -37,12 +36,12 @@ export default function AboutSection({
 
 function Prompt({ prompt }: { prompt: string }): ReactNode {
   return (
-    <div className="flex gap-2 bg-gpt-darker p-4 py-8">
-      <div className="flex w-[20%] grow-[2] basis-0 justify-center">
-        <FaUserCircle size={30} />
+    <div className="sm:py-8 md:py-10 flex gap-2 bg-gpt-darker p-4 py-6">
+      <div className="sm:w-[15%] md:w-[10%] flex w-[3%]">
+        <FaUserCircle className="text-3xl sm:text-4xl md:text-5xl" />
       </div>
-      <div className="grow-[10] basis-0">
-        <p>{prompt}</p>
+      <div className="grow">
+        <p className="sm:text-base md:text-lg text-sm">{prompt}</p>
       </div>
     </div>
   );
@@ -50,24 +49,30 @@ function Prompt({ prompt }: { prompt: string }): ReactNode {
 
 function Answer({ answer }: { answer: string }): ReactNode {
   return (
-    <div className="mb-4 flex gap-2 bg-gpt-medium p-4 py-8">
-      <div className="flex grow-[2] basis-0 items-baseline justify-center pt-2">
+    <>
+      <div className="justify-content-center flex">
+        {" "}
         <Image
           src="/logo.png"
           alt="Ordinateur Logo"
-          width={30}
-          height={30}
-          className="h-auto"
+          width={100}
+          height={100}
+          className="sm:w-64 md:w-64 h-auto w-10"
         />
       </div>
-      <div className="grow-[10] basis-0">
-        <TypeAnimation
-          sequence={[500, answer]}
-          preRenderFirstString={false}
-          speed={60}
-          wrapper="p"
-        />
+      <div className="sm:py-8 md:py-10 mb-8 flex gap-2 bg-gpt-medium p-4 py-6">
+        <div className="flex items-center justify-center"></div>
+        <div className="grow">
+          <TypeAnimation
+            sequence={[500, answer]}
+            preRenderFirstString={false}
+            speed={60}
+            wrapper="p"
+            className="sm:text-base md:text-lg text-sm"
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
+
