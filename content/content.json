@@ -58,11 +58,12 @@
     ],
     "magazine": {
       "tagline": "Every year since 2017, our society releases its annual publication: Bitwise. For everything technology and computer science!",
-      "currentVolume": "https://drive.google.com/file/d/1Vq0E9wmDhZwXcUa_BYqj7xdmgIwQ7veU/view",
+      "currentVolume": "https://drive.google.com/file/d/1rTZ_AvVNMq6BpwguAqiVbYJnstGdF9Ew/view?usp=sharing",
       "pastVolumes": [
         "https://drive.google.com/file/d/1VcYRESu_8KNIDoXRfuB3xXHhwHt4-oao/view",
         "https://drive.google.com/file/d/1Vqf9qDlbgvnvVvyYnCSQBzVGytxNLxYO/view",
-        "https://drive.google.com/file/d/1VrNGvUnrxnSNz0k8rXUhTRZ8qwNHQVA2/view"
+        "https://drive.google.com/file/d/1VrNGvUnrxnSNz0k8rXUhTRZ8qwNHQVA2/view",
+        "https://drive.google.com/file/d/1Vq0E9wmDhZwXcUa_BYqj7xdmgIwQ7veU/view"
       ]
     },
     "events": [
@@ -87,4 +88,3 @@
     "mail": "Ordinateur.hrc.du@gmail.com"
   }
 }
-
