@@ -22,14 +22,17 @@ export default function Window({
   return (
     <Frame
       boxShadow="$out"
-      bgColor="$material"
-
+      bgColor="#1a1a1a" // Dark background
       padding="$0.5"
-      className={`${outerClassName} min-[470px]:max-w-[550px]`} // Apply max-width in range
-
       style={outerStyle}
+      className={`rounded-lg ${outerClassName} min-[470px]:max-w-[550px]`}
     >
-      <TitleBar icon={<Computer />} title={title}>
+      <TitleBar
+        icon={<Computer />}
+        title={title}
+        active
+        className="bg-gray-800 text-white" // Title bar dark with white text
+      >
         <TitleBar.OptionsBox>
           <TitleBar.Option>
             <Help />
@@ -41,20 +44,16 @@ export default function Window({
       </TitleBar>
 
       <Frame
-        bgColor="white"
+        bgColor="#222" // Inner frame background dark
         boxShadow="$in"
         padding="$2"
-
-        className={`${innerClassName} min-[470px]:max-w-[550px]`} // Apply max-width in range
-
+        className={`${innerClassName} text-gray-200 min-[470px]:max-w-[550px]`}
       >
         <Frame
           height="100%"
           width="100%"
           padding="$2"
-
-          className="overflow-auto text-black-dark"
-
+          className="overflow-auto"
         >
           {children}
         </Frame>
