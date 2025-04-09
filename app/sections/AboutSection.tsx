@@ -37,8 +37,8 @@ export default function AboutSection({
 function Prompt({ prompt }: { prompt: string }): ReactNode {
   return (
     <div className="sm:py-8 md:py-10 flex gap-2 bg-gpt-darker p-4 py-6">
-      <div className="sm:w-[15%] md:w-[10%] flex w-[3%]">
-        <FaUserCircle className="text-3xl sm:text-4xl md:text-5xl" />
+      <div className="sm:w-[30%] md:w-[40%] flex w-[15%]">
+        <FaUserCircle className="text-md" />
       </div>
       <div className="grow">
         <p className="sm:text-base md:text-lg text-sm">{prompt}</p>
@@ -75,4 +75,3 @@ function Answer({ answer }: { answer: string }): ReactNode {
     </>
   );
 }
-
