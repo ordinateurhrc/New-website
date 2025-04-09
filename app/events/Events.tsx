@@ -1,5 +1,4 @@
 "use client";
-
 import React, { ReactNode, useState } from "react";
 import { FaChevronLeft, FaChevronRight, FaCircle } from "react-icons/fa";
 //Image to reduce image memory size
@@ -55,14 +54,14 @@ function ImageCarousel({ images }: { images: string[] }): ReactNode {
   };
 
   return (
-    <div className="sm:h-auto md:h-64 lg:h-80 sm:w-auto relative h-72 w-full">
+    <div className="relative w-full max-w-full overflow-hidden">
       {images[currentIndex] && (
         <Image
           width={100}
           height={150}
           src={images[currentIndex]}
           alt={`Image ${currentIndex + 1}`}
-          className="h-full w-full rounded-lg object-cover"
+          className="sm:max-h-[300px] md:max-h-[400px] lg:max-h-[500px] h-auto max-h-[400px] w-full rounded-lg object-cover"
         />
       )}
       <button
