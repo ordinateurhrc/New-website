@@ -69,17 +69,29 @@
     "events": [
       {
         "name": "Code Wars",
-        "date": "2021-10-10",
+        "date": "10-10-2023",
         "description": "Code Wars is our annual coding competition where students from all over the galaxy come together to test their skills and compete for glory and prizes. The competition consists of a series of coding challenges that test your knowledge of algorithms, data structures, and problem-solving skills. Whether you're a beginner or an expert, Code Wars has something for everyone. So grab your lightsaber and join us for an epic battle of wits and code!",
 
         "images": ["./first.jpg", "./second.jpg", "./third.jpg"]
       },
       {
-        "name": "Upcoming Hackathon",
-        "date": "2021-11-11",
+        "name": "Hackathon",
+        "date": "21-2-2025",
         "description": "Our annual hackathon is a 24-hour coding marathon where students work in teams to build innovative projects and solve real-world problems. Whether you're a seasoned hacker or a first-time coder, our hackathon has something for everyone. So grab your laptop and join us for an unforgettable experience of coding, collaboration, and creativity!",
         "images": ["./hackthon.jpg"]
-      }
+      },
+      {
+         "name":"NASSCOM Virtual Certified Boot Camp",
+          "date":"25-2-2025",
+           "description":"ORDINATEUR – The Computer Science Society of Hansraj College, in association with SFJ Business Solution, presents an incredible opportunity for students to boost their skills and certification with a free NASSCOM-certified virtual boot camp!",
+           "images":["./event2.jpeg"]
+      },
+      {
+         "name":"Generative-AI Workshop",
+          "date":"5-3-2025",
+        "description":"The Computer Science Society of Hansraj College, under IQAC, is organizing a hands-on Generative-AI Workshop for all enthusiasts eager to dive into the future of AI and its applications.This workshop is designed to give you practical exposure to cutting-edge technologies that are shaping the AI landscape. Whether you're just starting or looking to sharpen your AI skills, this session has something for everyone!",
+        "images":["./event1.jpeg"]
+      },
     ]
   },
   "contact": {
