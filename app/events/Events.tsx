@@ -61,7 +61,7 @@ function ImageCarousel({ images }: { images: string[] }): ReactNode {
           height={150}
           src={images[currentIndex]}
           alt={`Image ${currentIndex + 1}`}
-          className="sm:max-h-[300px] md:max-h-[400px] lg:max-h-[500px] h-auto max-h-[400px] w-full rounded-lg object-cover"
+          className="sm:max-h-[500px] md:max-h-[800px] lg:max-h-[800px] h-auto max-h-[900px] w-full rounded-lg object-cover"
         />
       )}
       <button
